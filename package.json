@@ -21,7 +21,9 @@
 		"format": "prettier --write ./src",
 		"lint": "eslint ./src --fix",
 		"preinstall": "npx only-allow pnpm",
-		"compress-fonts": "node scripts/compress-fonts.js"
+		"compress-fonts": "node scripts/compress-fonts.js",
+		"build": "vite build",
+    		"deploy": "gh-pages -d dist -r https://github.com/DeepContaine/deepcontaine.github.io.git"
 	},
 	"dependencies": {
 		"@astrojs/check": "^0.9.8",
