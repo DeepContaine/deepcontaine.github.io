@@ -1,7 +1,6 @@
 {
 	"name": "mizuki",
 	"type": "module",
-	"version": "9.0",
 	"scripts": {
 		"sync-content": "node scripts/sync-content.js",
 		"init-content": "node scripts/init-content-repo.js",
@@ -106,5 +105,22 @@
 		"svelte-eslint-parser": "^1.6.0",
 		"typescript-eslint": "^8.58.2"
 	},
-	"packageManager": "pnpm@10.33.0"
+	"packageManager": "pnpm@10.33.0",
+	"version": "1.0.0",
+	"description": "<img align='right' src='logo.png' width='200px' alt=\"Mizuki logo\">",
+	"main": "eslint.config.js",
+	"directories": {
+		"doc": "docs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/matsuzaka-yuki/Mizuki.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/matsuzaka-yuki/Mizuki/issues"
+	},
+	"homepage": "https://github.com/matsuzaka-yuki/Mizuki#readme"
 }
